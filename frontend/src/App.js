@@ -1,10 +1,18 @@
 import React from 'react';
-
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import { Container } from 'react-bootstrap'
 
 const App = () => {
   return (
     <>
-      <h1>Welcome to Maker's Native</h1>
+    <Header/>
+    <main>
+      <Container>
+        <h1>Welcome to Maker's Native</h1>
+      </Container>
+    </main>
+    <Footer/>
     </>
   );
 }
